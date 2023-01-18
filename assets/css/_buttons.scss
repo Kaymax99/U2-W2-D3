@@ -4,4 +4,10 @@
   padding: 1em 2em;
   border-radius: 25px;
   border: 0;
+  &:hover {
+    transition: all 0.3s;
+    transform: scale(1.2);
+    background-color: $color-hover;
+    border: 1px solid $color-white;
+  }
 }

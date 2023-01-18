@@ -1,7 +1,8 @@
 // COLORS
 $color-white: #ffffff;
 $color-primary: #363786;
-$color-secondary: #8f38a3;
+$color-secondary: #8741a3;
+$color-hover: #aa40bc;
 $size-2: 2em;
 $size-5: 5em;
 
@@ -25,10 +26,13 @@ $size-5: 5em;
   text-align: center;
 }
 .mx-5 {
-  margin: 0 30vw;
+  margin: 0 5vw;
 }
 .mt-2 {
   margin-top: $size-2;
+}
+.p-05 {
+  padding: 0.5em;
 }
 
 //FLEX
@@ -41,12 +45,10 @@ $size-5: 5em;
 .justify-center {
   justify-content: center;
 }
-
-//TRANSFORM
-
-.left:hover {
-  transform: rotate(-45deg);
+.pos-rel {
+  position: relative;
 }
-.right:hover {
-  transform: rotate(45deg);
+.pos-abs-bottom {
+  position: absolute;
+  bottom: 0;
 }
