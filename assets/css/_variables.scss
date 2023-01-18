@@ -10,9 +10,6 @@ $size-5: 5em;
 .pr-1 {
   padding-right: 1em;
 }
-.align-center {
-  align-items: center;
-}
 .w-100 {
   width: 100%;
 }
@@ -34,10 +31,19 @@ $size-5: 5em;
 .p-05 {
   padding: 0.5em;
 }
+.bd-btm-white {
+  border-bottom: 1px solid $color-white;
+}
+.bd-top-white {
+  border-top: 1px solid $color-white;
+}
 
 //FLEX
 .flex {
   display: flex;
+}
+.align-center {
+  align-items: center;
 }
 .space-evenly {
   justify-content: space-evenly;
