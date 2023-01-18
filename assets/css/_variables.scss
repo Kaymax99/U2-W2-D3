@@ -3,7 +3,7 @@ $color-white: #ffffff;
 $color-primary: #363786;
 $color-secondary: #8741a3;
 $color-hover: #aa40bc;
-$size-2: 2em;
+$size-2: 4em;
 $size-5: 5em;
 
 //GENERAL
@@ -22,11 +22,13 @@ $size-5: 5em;
 .text-center {
   text-align: center;
 }
-.mx-5 {
-  margin: 0 5vw;
+.mx-1 {
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
-.mt-2 {
+.my-2 {
   margin-top: $size-2;
+  margin-bottom: $size-2;
 }
 .p-05 {
   padding: 0.5em;
