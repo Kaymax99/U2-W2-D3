@@ -1,0 +1,52 @@
+// COLORS
+$color-white: #ffffff;
+$color-primary: #363786;
+$color-secondary: #8f38a3;
+$size-2: 2em;
+$size-5: 5em;
+
+//GENERAL
+.pr-1 {
+  padding-right: 1em;
+}
+.align-center {
+  align-items: center;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.h-15 {
+  height: 15vh;
+}
+.text-center {
+  text-align: center;
+}
+.mx-5 {
+  margin: 0 30vw;
+}
+.mt-2 {
+  margin-top: $size-2;
+}
+
+//FLEX
+.flex {
+  display: flex;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.justify-center {
+  justify-content: center;
+}
+
+//TRANSFORM
+
+.left:hover {
+  transform: rotate(-45deg);
+}
+.right:hover {
+  transform: rotate(45deg);
+}

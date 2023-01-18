@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  background-image: url(../img/space.jpg);
+  background-size: cover;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+li {
+  padding-left: 0;
+  list-style-type: none;
+}
